@@ -1,0 +1,48 @@
+@import 'constants/Colors';
+
+.home-banner{
+  background-color: $backgroundColor;
+  display: flex;
+  width: '100%';
+  .registration-banner{
+  };
+  .sidebar-banner{
+    background-color: $appColor;
+    width: 350px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .vertical-line{
+    height: 89px;
+    width: 3px;
+    background: $activeColor;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+};
+.active-step{
+  opacity: 1 !important;
+}
+
+.account-step-banner{
+  text-align: center;
+  opacity: 0.5;
+  .account-img-banner{
+    width: 124px;
+    height: 124px;
+    background-color: $activeColor;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .account-step-title{
+    margin-top: 7px;
+    font-size: 13px;
+    color: #fff;
+  }
+}
